@@ -35,8 +35,8 @@
                         {% csrf_token %}
                         <input type="hidden" name="itemid" value="{{fdet.id}}">
                         <input type="hidden" name="quantity" value="1">
+                        <a href="/cart.html"><button class="btn btn-warning"> Add to Cart</button></a>
                       </form>
-                      <a href="/cart.html"><button class="btn btn-warning"> Add to Cart</button></a>
                       <p class="detcat">Category: <span>{{fdet.type}}</span></p>
                   </div>
                 </div>
