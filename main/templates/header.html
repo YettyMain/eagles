@@ -40,7 +40,7 @@
           </li>
                   <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="/img/avatar.png" style="height: 20px;" alt=""><span>Hi Jerry</span>
+              <img src="{{user.customer.pix.url}}" style="height: 20px;" alt=""><span>Hi {{user.username}} </span>
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="{% url 'profile' %}">Profile</a></li>
